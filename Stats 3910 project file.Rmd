@@ -1,0 +1,39 @@
+---
+title: "AGE AND SMOKING: A COMPREHENSIVE ANALYSIS USING THE FREQUENTIST AND BAYESIAN METHOD "
+output: html_document
+date: "2024-09-20"
+AUTHORS: KIANA, CHIZURUM, LAYO
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+Research Hypothesis:
+This study aims to analyze the age demographics of those who smoke. The null hypothesis, H0, assumes that the average age of smokers is 60 years or younger, while the alternative hypothesis, H1, assumes that the average age of individuals who smoke is greater than 60 years.
+
+Background:
+The nature of smoking remains a public health issue, and seems to affect people across varying age groups. This research aims to determine whether older adults are the most likely to smoke. In doing so, we might be able to recorgnize patterns that could inform the public health sector and contribute to reduced smoking rates. This study is particularly interesting as it highlights how societal attitudes towards smoking could evolve over time 
+
+Data Sketch:
+
+Size:
+
+Source:
+
+Analysis:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
