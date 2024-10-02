@@ -1,8 +1,8 @@
 ---
 title: "AGE AND SMOKING: A COMPREHENSIVE ANALYSIS USING THE FREQUENTIST AND BAYESIAN METHOD "
 output: html_document
-date: "2024-09-20"
-AUTHORS: KIANA, CHIZURUM, LAYO
+date: "2024-10-5"
+AUTHORS: Kiana Philpott, Chizurum Ewelike, LAYO Faloseyi
 ---
 
 ```{r setup, include=FALSE}
@@ -10,30 +10,72 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
-Research Hypothesis:
-This study aims to analyze the age demographics of those who smoke. The null hypothesis, H0, assumes that the average age of smokers is 60 years or younger, while the alternative hypothesis, H1, assumes that the average age of individuals who smoke is greater than 60 years.
+**Research Hypothesis**:
+ <br> 
+  This study aims to analyze the age demographics of those who smoke. The null hypothesis, H0, assumes that the average age of smokers is 60 years or younger, while the alternative hypothesis, H1, assumes that the average age of individuals who smoke is greater than 60 years.
 
-Background:
-The nature of smoking remains a public health issue, and seems to affect people across varying age groups. This research aims to determine whether older adults are the most likely to smoke. In doing so, we might be able to recorgnize patterns that could inform the public health sector and contribute to reduced smoking rates. This study is particularly interesting as it highlights how societal attitudes towards smoking could evolve over time 
+**Background**:
+ <br> 
+  The nature of smoking remains a public health issue, and seems to affect people across varying age groups. This research aims to determine whether older adults are the most likely to smoke. In doing so, we might be able to recorgnize patterns that could inform the public health sector and contribute to reduced smoking rates. This study is particularly interesting as it highlights how societal attitudes towards smoking could evolve over time 
 
-Data Sketch:
+**Data Sketch**:
+ <br> 
+  The data set includes survey data on smoking habits from the United Kingdom. The data set can be used for analyzing demographic characteristics of smokers. 
 
-Size:
+**Size**: 
+ <br> 
+There are 12 variables and there are 1691 observations
 
-Source:
+**Source**: https://www.kaggle.com/datasets/utkarshx27/smoking-dataset-from-uk?resource=download
 
-Analysis:
+**Analysis**: 
+ <br> 
+  The tentative analysis plan is as follows:
+  <br> 
+  <br> 
+     | **1**. Check for the need of data cleaning. 
+      <br> 
+      <br> 
+     | **2**. Get familiar with the data set itself. 
+      <br> 
+      <br> 
+     | **3**. Create visualizations to show the distributions to show the distribution of age and smoking to enhance understanding
+      <br> 
+      <br> 
+     | **4**. Frequentist approach:
+      <br> 
+      <br> 
+          - Conduct a T-Test that compares the mean age of smokers to the age variable 
+           <br> 
+           <br> 
+          - Validate assumptions for the T-Test (normality & homogeneity of variances)
+           <br> 
+           <br> 
+          - Calculate a 95% confidence interval for the mean age of smokers to further assess the accuracy of our estimate
+           <br> 
+           <br> 
+      | **5**. Bayesian approach:
+       <br> 
+       <br> 
+          - Conduct a Bayestian T-Test using prior distribution 
+           <br> 
+           <br> 
+          - Analyze the posterior distribution to estimate the mean age & credible interval to help assess the probability that the               mean age of smokers is greater than 60 years 
+           <br> 
+           <br> 
+          - Conduct a prior sensitivity analysis by testing different priors to understand the impact they have on the results
+           <br> 
+           <br> 
+      | **6**. Compare the results from each approach (includes: interpretations & visualizations)
+       <br> 
+       <br> 
+      | **7**. Document the findings & results
+       <br> 
+      <br> 
+      
+      
+      
+      
+      
+      
 
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
