@@ -18,6 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
  <br> 
   The nature of smoking remains a public health issue, and seems to affect people across varying age groups. This research aims to determine whether older adults are the most likely to smoke. In doing so, we might be able to recorgnize patterns that could inform the public health sector and contribute to reduced smoking rates. This study is particularly interesting as it highlights how societal attitudes towards smoking could evolve over time 
 
+<<<<<<< HEAD
 **Data Sketch**:
  <br> 
   The data set includes survey data on smoking habits from the United Kingdom. The data set can be used for analyzing demographic characteristics of smokers. 
@@ -25,6 +26,12 @@ knitr::opts_chunk$set(echo = TRUE)
 **Size**: 
  <br> 
 There are 12 variables and there are 1691 observations
+=======
+Data Sketch:
+## kiana trial
+
+Size: second trial
+>>>>>>> 92d6b980451b413a13d97482f11a7f3450c02a64
 
 **Source**: https://www.kaggle.com/datasets/utkarshx27/smoking-dataset-from-uk?resource=download
 
